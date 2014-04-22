@@ -5,7 +5,7 @@
 				<div class="col-sm-9">	<!-- Page title -->
 					<a href="#" class="site-logo">
 						<h1><img src="{$ThemeDir}/images/ALFH-logo-lg.jpg" alt="The Alfred Logo Image"></h1>
-						<div class="site-logo-text">Nursing Education</div>
+						<div class="site-logo-text">Acquired Brain Injury Rehabilitation Centre</div>
 					</a>
 				</div>
 				<div class="search-container hidden-xs">
