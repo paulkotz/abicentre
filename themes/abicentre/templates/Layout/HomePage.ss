@@ -1,43 +1,26 @@
 <section class="home-content main">
 		<div class="container">
-			<div class="row home-feature">
-				<div class="col-sm-6 xs-full-width"><div class="l-margin-n10"><img src="{$ThemeDir}/images/home-image-1.jpg" alt="Nursing Image" class="homepage-feature-image"></div></div>
-				<div class="col-sm-6">
-					<div class="home-feature-text">
-						The Nursing Education department is committed to encouraging lifelong learning and the professional development of all nurses at Alfred Health. 
-						<a href="#" class="learn-more-link">Learn more</a>
+			<div class="row">
+				<div class="col-sm-5">
+					<div class="home-main-text">
+						<h2>Victoria’s first purpose&#8209;built centre of excellence in brain injury rehabilitation.</h2>
+						<p>Providing specialist treatment for patients with acquired brain injuries – from early stages of care through to rehabilitation and return to the community.</p>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-6 xs-full-width">
-					<div class="upcoming-event-container featured-item-container l-margin-n10 clearfix">
-						<h3>UPCOMING EVENT</h3>
-						<div class="image"><img src="{$ThemeDir}/images/event-image.jpg" alt="Event Image"></div>
-						<div class="text">
-							<div class="summary">Fundraising paddle for the Sandringham hospital</div>
-							<a href="#" class="link">Check it out for yourself</a>
-						</div>
+				<div class="col-sm-3">
+					<div class="home-sub-text">
+						<h3>PATIENTS AND FAMILIES</h3>
+						<p>What is an acquired brain injury?</p>
+						<p>What services and facilities are available?</p>
 					</div>
 				</div>
-				<div class="col-sm-3 xs-full-width">
-					<div class="featurned-course-container featured-item-container l-margin-n10 clearfix">
-						<h3>FEATURED COURSE</h3>
-						<div class="image"><img src="{$ThemeDir}/images/featured-course-icon.png" alt="Image"></div>
-						<div class="text">
-							<div class="summary">Formal Advanced Life Support Course</div>
-							<a href="#" class="link">See all courses</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3 xs-full-width">
-					<div class="professional-development-container featured-item-container s-margin-n10 clearfix">
-						<h3>Professional Development</h3>
-						<div class="image"><img src="{$ThemeDir}/images/document-icon.png" alt="Image"></div>
-						<div class="text">
-							<div class="summary">Nursing <br>Research</div>
-							<a href="#" class="link">Learn more</a>
-						</div>
+				<div class="col-sm-3">
+					<div class="home-sub-text">
+						<h3>HEALTH PROFESSIONALS</h3>
+						<p>What is the service model?</p>
+						<p>How can I work at the ABI Centre?</p>
 					</div>
 				</div>
 			</div>

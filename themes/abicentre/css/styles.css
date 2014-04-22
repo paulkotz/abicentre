@@ -225,7 +225,7 @@ section.top-nav .site-logo div{
 	section.top-nav nav ul li a:hover{
 		background-position: 0px -5px;	/* Could look better */
 	}
-	section.top-nav nav ul li.active a{
+	section.top-nav nav ul li.current a{
 		font-weight: 700;
 		background-position: 0px -10px;
 	}
@@ -333,7 +333,7 @@ section.top-nav .site-logo div{
 		border-bottom:1px solid #362f35;
 		padding: 15px 0 12px 0;
 	}
-	section.top-nav nav li.active{
+	section.top-nav nav li.current{
 		border-bottom:none;
 	}
 	section.top-nav nav > ul > li > a{
@@ -341,7 +341,7 @@ section.top-nav .site-logo div{
 		color: #ffffff;
 		opacity: 0.8;
 	}
-	section.top-nav nav li.active > a{
+	section.top-nav nav li.current > a{
 		font-weight: 700;
 	}
 
@@ -350,7 +350,7 @@ section.top-nav .site-logo div{
 		display: none;
 		padding: 10px 0px 0px 19px;
 	}
-	section.top-nav li.active > ul.sub-menu{
+	section.top-nav li.current > ul.sub-menu{
 		display: block;
 	}
 	section.top-nav ul.sub-menu li{
@@ -826,7 +826,7 @@ nav.right-nav ul{
 nav.right-nav ul li a{
 	border-bottom: solid 1px #7c8fa8;
 }
-nav.right-nav ul li.active > a{
+nav.right-nav ul li.current > a{
 	font-size: 18px;
 	font-weight: 700;
 }
