@@ -11,7 +11,7 @@ class Page extends SiteTree {
 	function getCMSFields(){
 		$fields = parent::getCMSFields();
 
-		$fields->addFieldToTab('Root.Main', new TextField('LeadingParagraph', 'Leading Paragraph'), 'Content');
+		$fields->addFieldToTab('Root.Main', new TextAreaField('LeadingParagraph', 'Leading Paragraph'), 'Content');
 
 		return $fields;
 	}
