@@ -22,7 +22,7 @@
 		<div class="container">
 			<div class="col-sm-9">
 				<div class="page-sub-title-text">
-					<h3>In Victoria, it is estimated that more than 70,000 people live with an acquired brain injury – as many as half need ongoing daily support.</h3>
+					<h3>$LeadingParagraph</h3>
 				</div>
 				<div class="main-content">
 					$Content
