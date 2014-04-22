@@ -26,7 +26,7 @@
 									<div class="link-text">$Title</div>
 								</a>
 							</li>
-
+							<% end_loop %>
 						</ul>
 					</nav>
 				</div>
