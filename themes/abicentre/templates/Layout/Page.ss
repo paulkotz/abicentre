@@ -1,34 +1,33 @@
-<section class="content-page page-title">
+	<section class="page-title">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-3">
+				<div class="col-sm-12">
 					<div class="page-title-text">$Title</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<section class="right-side-nav-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 col-sm-offset-9">
+					<% include SubNav %>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<section class="content-page main">
 		<div class="container">
-			<div class="col-sm-3 col-sm-push-9">
-				<nav class="right-nav s-margin-n10">
-					<div class="topic-title">$Level(1).Title </div>
-					
-					<% include SubNav %>
-
-				</nav>
-			</div>
-			<div class="col-sm-9 col-sm-pull-3">
-				<!-- Main content -->
-				<div class="main-content l-margin-n10">
-					
+			<div class="col-sm-9">
+				<div class="page-sub-title-text">
+					<h3>In Victoria, it is estimated that more than 70,000 people live with an acquired brain injury – as many as half need ongoing daily support.</h3>
+				</div>
+				<div class="main-content">
 					$Content
 					$Form
-
 				</div>
-				<!-- Main content END-->
 			</div>
-			
 		</div>
 	</section>

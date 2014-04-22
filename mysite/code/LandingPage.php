@@ -12,7 +12,7 @@ class LandingPage extends Page{
 
 	function getCMSFields(){
 		$fields = parent::getCMSFields();
-		$fields->removeFieldFromTab("Root.Main","Content");
+		//$fields->removeFieldFromTab("Root.Main","Content");
 
 		return $fields;
 	}

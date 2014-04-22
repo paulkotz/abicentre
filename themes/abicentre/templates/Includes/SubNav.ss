@@ -1,9 +1,8 @@
-
+<nav class="right-nav s-margin-n10">
 	<% if LinkOrSection = section %>
 	<ul>
 			<% loop $Menu(2) %>
 				<li class="$LinkingMode"><a href="$Link" title="Go to the $Title.XML page"><div>$MenuTitle.XML</div></a>
-
 					<% if $Children %>
 						<ul class="tertiary-menu">
 							<% loop Children %>
@@ -17,3 +16,4 @@
 
 	</ul>
 	<% end_if %>
+</nav>
