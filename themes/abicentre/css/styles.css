@@ -552,7 +552,7 @@ section.main.content-page{
 	background-repeat: no-repeat ,no-repeat, no-repeat;
 	background-size: 100% 100%, auto, auto;*/
 	background-color: #eeeeee;
-	background-image: url("../images/gray-pix.png"), url("../images/left-content-background.png");
+	background-image: url("../images/gray-pix.png"), url("../images/left-content-background2.png");
 	background-position: center 393px, center 0px;
 	background-repeat: no-repeat ,no-repeat;
 	background-size: 100% 100%, auto;
@@ -813,9 +813,9 @@ div.hr{
 section.right-side-nav-container{
 	position: absolute;
 	width: 100%;
-	background-image: url("../images/right-nav-background.png");
-	background-position: center -113px;
-	background-repeat: no-repeat;
+	background-image: url("../images/right-nav-background.png"),  url("../images/landing-background-nav-blue3.png");
+	background-position: center -113px, right top;
+	background-repeat: no-repeat, repeat-y;
 	color: #ffffff;
 }
 nav.right-nav .topic-title{
