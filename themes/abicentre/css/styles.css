@@ -485,7 +485,7 @@ section.main.landing-page{
 	position: absolute;
 	width: 100%;
 	background-image: url("../images/landing-background-nav.png"), url("../images/landing-background-nav-blue.png");
-	background-position: center -113px, right top;
+	background-position: center -113px, 70% top;
 	background-repeat: no-repeat, repeat-y;
 	min-height: 500px;
 }
