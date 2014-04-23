@@ -115,7 +115,7 @@ section.top-nav .search-and-text-container{
 section.top-nav .search-container{
 	position: absolute;
 	right: 10px;
-	bottom: 0px;
+	bottom: 13px;
 	width: 230px;
 }
 
@@ -184,7 +184,7 @@ section.top-nav .site-logo h1{
 }
 section.top-nav .site-logo div{
 	display: inline-block;
-	font-size: 1.375em;
+	font-size: 1.500em;
 	line-height: 50px;
 	font-weight: 400;
 }
