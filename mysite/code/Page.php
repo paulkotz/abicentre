@@ -14,7 +14,7 @@ class Page extends SiteTree {
 
 		$fields->addFieldToTab('Root.Main', new TextAreaField('LeadingParagraph', 'Leading Paragraph'), 'Content');
 
-		$fields->addFieldToTab('Root.Main', new UploadField('ThumbnailImage', 'Thumbnail image for display on parent landing page'));
+		$fields->addFieldToTab('Root.Main', new UploadField('ThumbnailImage', 'Thumbnail image for display on parent landing page'), 'Content');
 
 		return $fields;
 	}
