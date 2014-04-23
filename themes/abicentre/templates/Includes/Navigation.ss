@@ -9,10 +9,11 @@
 					</a>
 				</div>
 				<div class="search-container hidden-xs">
-					<form action="#" id="search-form" class="search-form">
-						<input type="submit" value="">
-						<input type="search" name="search-input" id="search-input" placeholder="Search...">
-					</form>
+					<form id="SearchForm_SearchForm" action="{$Link}SearchForm" method="get" enctype="application/x-www-form-urlencoded"class="search-form">
+								<input type="submit" value="" name="action_results" id="SearchForm_SearchForm_action_results">
+								<input type="search" name="Search" id="SearchForm_SearchForm_Search" placeholder="Search...">
+							</form>
+
 				</div>
 			</div>
 			<div class="row">
