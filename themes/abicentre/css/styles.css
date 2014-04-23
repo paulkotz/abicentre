@@ -813,7 +813,7 @@ div.hr{
 section.right-side-nav-container{
 	position: absolute;
 	width: 100%;
-	background-image: url("../images/right-nav-background.png"),  url("../images/landing-background-nav-blue3.png");
+	background-image: url("../images/right-nav-background2.png"),  url("../images/landing-background-nav-blue3.png");
 	background-position: center -113px, right top;
 	background-repeat: no-repeat, repeat-y;
 	color: #ffffff;
