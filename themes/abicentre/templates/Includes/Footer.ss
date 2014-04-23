@@ -3,7 +3,7 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<div class="footer-links">
-						<h3>$SiteConfig.Title <img src="{$ThemeDir}/images/caulfield-logo.jpg" alt="caulfield logo"></h3>
+						<h3><img src="{$ThemeDir}/images/caulfield-logo.jpg" alt="caulfield logo">$SiteConfig.Title</h3>
 						<ul class="clearfix">
 							<% loop $Menu(1) %>
 							<li class="$LinkingMode"><a href="$Link"> <div>$MenuTitle.XML</div></a></li>
