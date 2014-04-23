@@ -955,6 +955,14 @@ footer.page-footer .copyright{
 	}
 }
 
+@media (max-width: 1500px){
+	section.right-side-nav-container{
+	background-image: url("../images/right-nav-background3.png");
+	}
+}
+
+
+
 
 
 /* Mobile overrides */
