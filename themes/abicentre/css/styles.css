@@ -197,11 +197,13 @@ section.top-nav .site-logo div{
 		margin: 0 -10px;
 	}
 	section.top-nav nav ul{
-		
+		width:980px;
+		display:table;
 	}
 	section.top-nav nav ul li{
-		float: left;
-		/*width: 16.66666667%;*/
+		/*float: left;
+		width: 16.66666667%;*/
+		display:table-cell;
 	}
 	section.top-nav nav ul li a{
 		display: block;
@@ -417,6 +419,7 @@ section.home-content{
 	background-size: 2570px 10px, auto auto;
 	background-repeat: no-repeat, no-repeat;
 	background-position: center top, center top;
+	margin-top:-10px;
 }
 section.home-content .container{
 }
