@@ -3,7 +3,7 @@
 			<div class="row">
 				<div class="col-sm-9">
 					<div class="alfred-health-text">
-						Alfred Health
+						<a href="http://www.alfred.org.au/" target="_blank">Alfred Health</a>
 					</div>
 				</div>
 				<%-- <div class="col-sm-3 hidden-xs">
