@@ -227,7 +227,8 @@ section.top-nav .site-logo div{
 	section.top-nav nav ul li a:hover{
 		background-position: 0px -5px;	/* Could look better */
 	}
-	section.top-nav nav ul li.current a{
+	section.top-nav nav ul li.current a,
+	section.top-nav nav ul li.section a{
 		font-weight: 700;
 		background-position: 0px -10px;
 	}
