@@ -184,12 +184,12 @@ section.top-nav .site-logo h1{
 }
 section.top-nav .site-logo div{
 	display: inline-block;
-	font-size: 1.250em;
+	font-size: 1.375em;
 	line-height: 50px;
 	font-weight: 400;
 }
 
-section.top-nav .site-logo div.grey{
+section.top-nav .site-logo div span.grey{
 	color:#a5a9ac;
 	}
 
