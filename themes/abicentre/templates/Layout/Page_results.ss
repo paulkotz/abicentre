@@ -16,9 +16,9 @@
     <section class="right-side-nav-container">
         <div class="container">
             <div class="row">
-               <%--  <div class="col-sm-3 col-sm-offset-9">
-                    <% include SubNav %>
-                </div> --%>
+                <div class="col-sm-3 col-sm-offset-9">
+                    <%-- <% include SubNav %> --%>
+                </div> 
             </div>
         </div>
     </section>
@@ -38,7 +38,7 @@
     <ul id="SearchResults">
         <% loop $Results %>
         <li>
-            <h4>
+            <h3>
                 <a href="$Link">
                     <% if $MenuTitle %>
                     $MenuTitle
@@ -46,7 +46,7 @@
                     $Title
                     <% end_if %>
                 </a>
-            </h4>
+            </h3>
             <% if $Content %>
                 <p>$Content.LimitWordCountXML</p>
             <% end_if %>
