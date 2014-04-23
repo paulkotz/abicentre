@@ -552,10 +552,10 @@ section.main.content-page{
 	background-repeat: no-repeat ,no-repeat, no-repeat;
 	background-size: 100% 100%, auto, auto;*/
 	background-color: #eeeeee;
-	background-image: url("../images/gray-pix.png"), url("../images/left-content-background2.png");
-	background-position: center 393px, center 0px;
-	background-repeat: no-repeat ,no-repeat;
-	background-size: 100% 100%, auto;
+	background-image: url("../images/gray-pix.png"), url("../images/left-content-background.png"),  url("../images/left-content-background2.png");
+	background-position: center 393px, center 0px, left top;
+	background-repeat: no-repeat ,no-repeat, no-repeat;
+	background-size: 100% 100%, auto, auto;
 	margin-top: 0px;
 	/*height: 800px;*/
 }
