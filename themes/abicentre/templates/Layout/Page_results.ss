@@ -1,9 +1,38 @@
-<div id="Content" class="searchResults">
-    <h1>$Title</h1>
 
-    <% if $Query %>
-        <p class="searchQuery">You searched for &quot;{$Query}&quot;</p>
-    <% end_if %>
+
+
+
+
+    <section class="page-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title-text">$Title</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="right-side-nav-container">
+        <div class="container">
+            <div class="row">
+               <%--  <div class="col-sm-3 col-sm-offset-9">
+                    <% include SubNav %>
+                </div> --%>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-page main">
+        <div class="container">
+            <div class="col-sm-9">
+                <div class="page-sub-title-text">
+                    <h3><% if $Query %>
+        You searched for &quot;{$Query}&quot;
+    <% end_if %></h3>
+                </div>
+                <div class="main-content">
+                   
 
     <% if $Results %>
     <ul id="SearchResults">
@@ -51,4 +80,7 @@
         <p>Page $Results.CurrentPage of $Results.TotalPages</p>
     </div>
     <% end_if %>
-</div>
+                </div>
+            </div>
+        </div>
+    </section>
