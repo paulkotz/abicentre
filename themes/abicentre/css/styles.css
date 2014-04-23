@@ -923,13 +923,17 @@ footer.page-footer .row{
 	padding-top: 25px;
 }
 footer.page-footer .footer-links{
-	padding: 0 15px;
+	padding: 0 0 0 15px;
 }
 footer.page-footer .footer-links h3{
 	font-size: 1.125em;
-	line-height: 24px;
+	line-height: 26px;
 	padding-bottom: 10px;
 }
+footer.page-footer .footer-links h3 img{
+	float: right;
+}
+
 footer.page-footer .footer-links li{
 	float: left;
 	width: 50%;
