@@ -484,9 +484,9 @@ section.main.landing-page{
 .landing-page-nav-container{
 	position: absolute;
 	width: 100%;
-	background-image: url("../images/landing-background-nav.png");
-	background-position: center -113px;
-	background-repeat: no-repeat;
+	background-image: url("../images/landing-background-nav.png"), url("../images/landing-background-nav-blue.png");
+	background-position: center -113px, right top;
+	background-repeat: no-repeat, repeat-y;
 	min-height: 500px;
 }
 .topic-summary{
