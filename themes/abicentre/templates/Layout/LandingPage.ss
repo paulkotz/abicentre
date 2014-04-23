@@ -22,7 +22,7 @@
 							<% loop Children %>
 							<li>
 								<a href="$Link" class="clearfix">
-									<div class="link-image"><img src="{$ThemeDir}/images/landing-page-thumbnail.jpg" alt="sub page thumbnail"></div>
+									<div class="link-image"><img src="<% if ThumbnailImage %><% with ThumbnailImage %><% with CroppedImage(210,120) %>$URL<% end_with %><% end_with %><% else %>{$ThemeDir}/images/landing-page-thumbnail.jpg<% end_with %>" alt="sub page thumbnail"></div>
 									<div class="link-text">$Title</div>
 								</a>
 							</li>

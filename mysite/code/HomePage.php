@@ -15,6 +15,7 @@ class HomePage extends Page {
 	function getCMSFields(){
 		$fields = parent::getCMSFields();
 
+		$fields->removeFieldFromTab("Root.Main","LeadingParagraph");
 
 		$footerNewsletterBlurbfield = new HTMLEditorField('FooterAlfredHealthLinks', 'Footer Alfred Health Links'); 
 		$footerNewsletterBlurbfield->setRows(4);      
