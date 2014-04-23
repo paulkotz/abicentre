@@ -36,6 +36,14 @@
 						</ul>
 						<div class="search-container visible-xs">
 
+
+							<form id="SearchForm_SearchForm" action="{$Link}SearchForm" method="get" enctype="application/x-www-form-urlencoded">	
+								<fieldset>
+									<input type="text" name="Search" value="" placeholder="Search..." class="text nolabel" id="SearchForm_SearchForm_Search" />
+									<input type="image" name="action_results" src="{$ThemeDir}/images/btn-search.png" alt="Go" class="action" id="SearchForm_SearchForm_action_results">
+								</fieldset>
+							</form>
+
 							<form id="SearchForm_SearchForm" action="{$Link}SearchForm" method="get" enctype="application/x-www-form-urlencoded"class="search-form">
 								<input type="submit" value="" name="action_results" id="SearchForm_SearchForm_action_results">
 								<input type="search" name="Search" id="SearchForm_SearchForm_Search" placeholder="Search...">
