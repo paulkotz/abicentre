@@ -6,11 +6,11 @@
 						Alfred Health
 					</div>
 				</div>
-				<div class="col-sm-3 hidden-xs">
+				<%-- <div class="col-sm-3 hidden-xs">
 					<div class="staff-login">
 						<a href="#">Staff Login</a>
 					</div>
-				</div>
+				</div> --%>
 			</div>
 		</div>
 	</header>

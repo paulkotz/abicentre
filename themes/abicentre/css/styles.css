@@ -601,14 +601,14 @@ section.content-page.main .main-content{
 }
 
 body .main-content h2{
-	color: #666666;
+	color: #41403a;
 	font-size: 1.500em;
 	margin:1.5em 0 0 0;
 	line-height: 2.1em;
 	border-bottom: solid 1px #dadada;
 }
 .main-content h3{
-	color: #666666;
+	color: #41403a;
 	font-size: 1.125em;
 	margin:1.8em 0 0 0;
 }
@@ -616,7 +616,7 @@ body .main-content h2{
 .main-content p, .main-content ul{
 	margin:1em 0;
 	line-height: 1.4em;
-	color: #999999;
+	color: #41403a;
 }
 
 .main-content ul.generic-list{
