@@ -389,6 +389,7 @@ section.page-title{
 	background-size: 2570px 10px, auto auto;
 	background-position: center top, center top;
 	background-repeat: no-repeat, no-repeat;
+	background-color:#5881b4;
 	height:113px;
 	margin-top: -10px;
 }
@@ -473,10 +474,10 @@ section.home-content .col-sm-3:last-child .home-sub-text {
 
 /* Landing page */
 section.main.landing-page{
-	background-image:url("../images/landing-page-left-background2.png");
-	background-position: center top;
+	background-image:url("../images/landing-page-left-background3.jpg");
+/*	background-position: center top;
 	background-size: 1600px auto;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	min-height: 500px;
 }
 
