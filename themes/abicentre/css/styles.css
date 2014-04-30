@@ -704,31 +704,32 @@ table th{
 }
 
 /* registration form */
-form.generic-form {
+.main-content form {
 	font-size: 0.875em;
 }
-form.generic-form label{
+.main-content form label{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	display: block;
 	font-weight: 700;
 	color: #666666;
 	padding:15px 0;
 }
-form.generic-form input{
+.main-content forminput{
 	display: block;
 }
-form.generic-form input[type="text"]{
+.main-content form input[type="text"],
+.main-content form input[type="password"]{
 	border: 1px solid #eeeeee;
 	background: #eeeeee;
 	padding:19px 20px;
 	width:470px;
 	max-width: 100%;
 }
-form.generic-form input[type="text"]:focus{
+.main-content forminput[type="text"]:focus{
 	outline: none;
 }
 
-form.generic-form input[type="submit"]{
+.main-content form input[type="submit"]{
 	border: none;
 	background: url("../images/link-arrow-dark-compressed.png") left top no-repeat;
 	padding: 0px 14px; 
@@ -737,7 +738,7 @@ form.generic-form input[type="submit"]{
 	margin:40px 0;
 }
 
-form.generic-form select{
+.main-content form select{
 	width: 470px;
 	max-width: 100%;
 }
