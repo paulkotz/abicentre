@@ -624,12 +624,12 @@ body .main-content h2{
 	color: #41403a;
 }
 
-.main-content ul.generic-list{
+.main-content ul{
 	list-style-type:disc;
 	padding-left: 20px;
 }
 
-.main-content ul.generic-list li{
+.main-content ul li{
 	margin: 1em 0;
 }
 
