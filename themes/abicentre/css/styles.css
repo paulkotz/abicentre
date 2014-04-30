@@ -661,6 +661,11 @@ body .main-content h2{
 	font-size: 0.9em;
 }
 
+.main-content a{
+	color:##5879a1;
+	font-weight:700;
+}
+
 /* Videos */
 .video-container {
     position: relative;
