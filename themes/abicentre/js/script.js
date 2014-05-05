@@ -38,7 +38,7 @@ function landingContentHeight(){
 
 	if ($landingContentHeight <= $landingMenuHeight){
 		alert(',menu is taller');
-		$('.landing-page.main').outerHeight.css('height: $landingMenuHeight ;');
+		$('.landing-page.main').css('height: $landingMenuHeight ;');
 	}
 
 }
