@@ -13,7 +13,7 @@ function mobileMenuButtonClick(button){
 
 $(document).ready(function(){
 	$(".generic-drop-down").chosen({disable_search:true});
-
+	alert($(window).width);
 	if ($(window).width > 767){
 		matchHeights('.landing-page.main','.landing-page-nav-container');
 	}
