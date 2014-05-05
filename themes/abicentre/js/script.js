@@ -13,7 +13,7 @@ function mobileMenuButtonClick(button){
 
 $(document).ready(function(){
 	$(".generic-drop-down").chosen({disable_search:true});
-	landingContentHeight();
+	matchHeights('.landing-page.main','.landing-page-nav-container');
 });
 
 
@@ -32,13 +32,28 @@ window.onresize = function(){
   	doit = setTimeout(resizedw, 200);
 };
 
-function landingContentHeight(){
-	var $landingContentHeight = $('.landing-page.main').outerHeight;
-	var $landingMenuHeight = $('.landing-page-nav-container').outerHeight;
+// function landingContentHeight(){
+// 	var $landingContentHeight = $('.landing-page.main').outerHeight;
+// 	var $landingMenuHeight = $('.landing-page-nav-container').outerHeight;
 
-	if ($landingContentHeight <= $landingMenuHeight){
-		alert(',menu is taller' $landingContentHeight);
-		$('.landing-page.main').css('height: $landingMenuHeight ;');
+// 	if ($landingContentHeight <= $landingMenuHeight){
+// 		alert($landingContentHeight);
+// 		$('.landing-page.main').css('height: $landingMenuHeight ;');
+// 	}
+
+// }
+
+function matchHeights(selector1, selector2){
+	$a = $(selector1);
+	$b = $(selector2);
+
+	if( $a.length+$b.length < 2 ){
+		return false;
 	}
 
+	if( $a.height() > $b.height() ){
+		$b.css("height", $a.height());
+	}else{
+		$a.css("height", $b.height());
+	}
 }
