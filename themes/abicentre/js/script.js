@@ -13,6 +13,7 @@ function mobileMenuButtonClick(button){
 
 $(document).ready(function(){
 	$(".generic-drop-down").chosen({disable_search:true});
+	landingContentHeight();
 });
 
 
@@ -30,3 +31,14 @@ window.onresize = function(){
   	clearTimeout(doit);
   	doit = setTimeout(resizedw, 200);
 };
+
+function landingContentHeight(){
+	var $landingContentHeight = $('.landing-page.main').outerHeight;
+	var $landingMenuHeight = $('.landing-page-nav-container').outerHeight;
+
+	if ($landingContentHeight <= $landingMenuHeight){
+		alert(',menu is taller');
+		$('.landing-page.main').outerHeight.css('height: $landingMenuHeight ;');
+	}
+
+}
