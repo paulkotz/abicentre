@@ -4,6 +4,7 @@
 
 
 	<section class="page-title">
+		<div class="nav-white"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -13,10 +14,11 @@
 		</div>
 	</section>
 
-	<section class="landing-page-nav-container">
+	<section class="landing-content">
+	<div class="subnav-background">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-5 col-sm-offset-7">
+				<div class="col-sm-5 col-sm-push-7">
 					<nav class="landing-page-nav r-margin-n10">
 						<ul>
 							<% loop Children %>
@@ -30,16 +32,15 @@
 						</ul>
 					</nav>
 				</div>
+
+				<div class="col-sm-7 col-sm-pull-5">
+					<div class="topic-summary">
+						$Content
+					</div>
+				</div>
+				
 			</div>
 		</div>
+	</div>
 	</section>
 
-	<section class="landing-page main">
-		<div class="container">
-			<div class="col-sm-7">
-				<div class="topic-summary">
-					$Content
-				</div>
-			</div>
-		</div>
-	</section>

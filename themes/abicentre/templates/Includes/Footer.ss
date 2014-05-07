@@ -1,7 +1,7 @@
 	<footer class="page-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-5">
 					<div class="footer-links">
 						<h3><img src="{$ThemeDir}/images/caulfield-logo.jpg" alt="caulfield logo">$SiteConfig.Title</h3>
 						<ul class="clearfix">
@@ -11,7 +11,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-sm-3 col-sm-offset-5">
+				<div class="col-sm-3 col-sm-offset-4">
 					<div class="external-alfred-links">
 						<h3><img src="{$ThemeDir}/images/alfred-health-logo-compressed.png" alt="Alfred health logo"></h3>
 						<% with Page(home) %>$FooterAlfredHealthLinks<% end_with %>

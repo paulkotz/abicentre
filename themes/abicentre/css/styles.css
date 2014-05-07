@@ -282,7 +282,7 @@ section.top-nav .site-logo div span.grey{
 
 	section.top-nav nav{
 		position: relative;
-		top: -133px;
+		top: -134px;
 		right: 0;
 		left:0;
 		height: 0;
@@ -389,11 +389,22 @@ section.top-nav .site-logo div span.grey{
 
 
 /* Page titles */
+section.page-title .nav-white,
+section.home-content .nav-white{
+	position:absolute;
+	height:10px;
+	width:100%;
+	background-image: url("../images/transparent-center.png") ;
+	background-size: 2570px 10px;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
 section.page-title{
-	background-image: url("../images/transparent-center.png") ,url("../images/landing-content-title-background.png");
-	background-size: 2570px 10px, auto auto;
-	background-position: center top, center top;
-	background-repeat: no-repeat, no-repeat;
+	background-image: url("../images/landing-content-title-background.png");
+	background-size: auto auto;
+	background-position: center top;
+	background-repeat: no-repeat;
 	background-color:#5881b4;
 	height:113px;
 	margin-top: -10px;
@@ -421,10 +432,14 @@ section.page-title .container{
 
 /* HOME PAGE */
 section.home-content{
-	background-image: url("../images/transparent-center.png"), url("../images/home-image.jpg");
-	background-size: 2570px 10px, auto auto;
+	/*background-image: url("../images/transparent-center.png"), url("../images/home-image.jpg");
+	background-size: 2570px 10px, 100% auto;
 	background-repeat: no-repeat, no-repeat;
-	background-position: center top, center top;
+	background-position: center top, center top;*/
+	background-image: url("../images/home-image.jpg");
+	background-size:  auto 100%;
+	background-repeat:  no-repeat;
+	background-position:  center top;
 	margin-top:-10px;
 }
 section.home-content .container{
@@ -444,7 +459,7 @@ section.home-content .home-main-text p{
 	line-height: 1.48em;
 	font-weight: 400;
 	color: #41403a;
-	margin: 25px 0 50px 0;
+	margin: 25px 0 30px 0;
 }
 
 section.home-content .home-sub-text{
@@ -484,6 +499,18 @@ section.main.landing-page{
 	background-size: 1600px auto;
 	background-repeat: no-repeat;*/
 	min-height: 500px;
+}
+
+.landing-content{
+	background-image:url("../images/landing-background-colours.gif");
+	background-position:center;
+	background-repeat:repeat-y;
+}
+
+.landing-content .subnav-background{
+	background-image: url("../images/landing-background.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
 }
 
 .landing-page-nav-container{
@@ -551,17 +578,25 @@ nav.landing-page-nav .link-text{
 }
 
 section.main.content-page{
-	/*background-color: #eeeeee;
-	background-image: url("../images/gray-pix.png"), url("../images/left-content-background.png"), url("../images/content-background.png");
-	background-position: center 393px, center 0px, center -113px;
-	background-repeat: no-repeat ,no-repeat, no-repeat;
-	background-size: 100% 100%, auto, auto;*/
+
 	background-color: #eeeeee;
-	background-image: url("../images/gray-pix.png"), url("../images/left-content-background.png"),  url("../images/left-content-background2.png");
-	background-position: center 393px, center 0px, left top;
-	background-repeat: no-repeat ,no-repeat, no-repeat;
-	background-size: 100% 100%, auto, auto;
+	background-image: url("../images/left-content-background2.png");
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: auto;
 	margin-top: 0px;
+	/*height: 800px;*/
+}
+
+
+
+section.main.content-page .content-page-bg{
+	background-image:url("../images/left-content-background.png");
+	background-position: center 0px;
+	background-repeat:no-repeat;
+	background-size: auto;
+	margin-top: 0px;
+	width:100%;
 	/*height: 800px;*/
 }
 
@@ -824,11 +859,20 @@ div.hr{
 section.right-side-nav-container{
 	position: absolute;
 	width: 100%;
-	background-image: url("../images/right-nav-background3.png"),  url("../images/right-nav-background-blue.png");
-	background-position: center -113px, right top;
-	background-repeat: no-repeat, repeat-y;
+	background-image: url("../images/right-nav-background-blue.png");
+	background-position: right top;
+	background-repeat: repeat-y;
 	color: #ffffff;
 }
+
+section.right-side-nav-container .right-side-nav-bg{
+	width: 100%;
+	background-image: url("../images/right-nav-background3.png");
+	background-position: center -113px;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+
 nav.right-nav .topic-title{
 	margin-left: 19px;
 	font-weight: 700;
@@ -938,6 +982,7 @@ footer.page-footer .footer-links h3{
 }
 footer.page-footer .footer-links h3 img{
 	float: right;
+	margin-right:60px;
 }
 
 footer.page-footer .footer-links li{
@@ -972,9 +1017,16 @@ footer.page-footer .copyright{
 
 @media (max-width: 1500px){
 	section.right-side-nav-container{
-	background-image: url("../images/right-nav-background3.png");
+	background-image: none;
 	}
 }
+
+@media (min-width: 1640px){
+	section.home-content{
+	background-size: 100% auto;
+	}
+}
+
 
 
 
@@ -988,6 +1040,10 @@ footer.page-footer .copyright{
 	}
 	footer{
 		font-size: 150%;
+	}
+
+	footer.page-footer .footer-links h3 img{
+		margin-right:0;
 	}
 	section.top-nav nav{
 		font-size: 130%;
@@ -1006,6 +1062,7 @@ footer.page-footer .copyright{
 		margin-left: 0px;
 		padding: 5px 0;
 		color: #999999;
+		font-size:1.400em;
 	}
 
 	/* This helper class can be applyed to direct children of .row to remove side padding */
@@ -1030,14 +1087,13 @@ footer.page-footer .copyright{
 		font-size: 1.8em;
 	}
 	section.home-content .col-sm-3{
-		background: #eaf6ee;
+		/*background: #eaf6ee;*/
 	}
 	section.home-content .home-sub-text{
 		height: auto;
 	}
 	section.home-content{
-		background-position: center -10px, left top;
-		background-size: 2570px 10px, auto 100%;
+		background-position: left top;
 	}
 	section.home-content .col-sm-3:last-child .home-sub-text{
 		border-left: none;
@@ -1076,6 +1132,19 @@ footer.page-footer .copyright{
 		background: #5a789e;
 		min-height: 0;
 	}
+
+	section.landing-content{
+		background:#dfe3e2;
+	}
+
+	section.landing-content .subnav-background{
+		background:none;
+	}
+
+	.landing-content .col-sm-5{
+		background:#5881b4;
+	}
+
 	nav.landing-page-nav .link-image{
 		width: 40%;
 	}
@@ -1090,6 +1159,14 @@ footer.page-footer .copyright{
 		background: #f2f0f0;
 	}
 
+	nav.landing-page-nav {
+	 margin:0;
+	}
+
+	nav.landing-page-nav a {
+		margin:0;
+		}
+
 
 	/* Right side nav */
 	section.right-side-nav-container{
@@ -1098,6 +1175,13 @@ footer.page-footer .copyright{
 		background: #ffffff;
 	}
 
+	.right-side-nav-container .col-sm-3{
+		background:#5881b4;
+	}
+
+	section.main.content-page .content-page-bg{
+		background:none;
+	}
 
 	/* Footer corrections */
 	footer .external-alfred-links{

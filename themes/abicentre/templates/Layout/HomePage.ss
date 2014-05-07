@@ -1,4 +1,5 @@
 <section class="home-content main">
+<div class="nav-white"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-5">
