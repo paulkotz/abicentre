@@ -22,7 +22,7 @@
 						<button type="button" class="mobile-menu-button visible-xs" onclick="mobileMenuButtonClick(this)">Menu</button>
 						<ul class="clearfix">
 							<% loop $Menu(1) %>
-							<li class="$LinkingMode">
+							<li class="$LinkingMode <% if Children %>has-children<% end_if %>">
 								<a href="$Link"> <div>$MenuTitle.XML</div></a>
 								<% if Children %>
 								<ul class="sub-menu">

@@ -241,6 +241,11 @@ section.top-nav .site-logo div span.grey{
 /* Top nav (full) */
 @media (min-width: 768px){
 	section.top-nav nav{
+		position:relative;
+		z-index:100;
+	}
+
+	section.top-nav nav{
 		margin: 0 -10px;
 	}
 	section.top-nav nav ul{
@@ -251,15 +256,7 @@ section.top-nav .site-logo div span.grey{
 		/*float: left;
 		width: 16.66666667%;*/
 		display:table-cell;
-	}
-	section.top-nav nav ul li a{
-		display: block;
-		padding: 0 29px;
-		line-height: 62px;
-		height: 62px;
-		font-size: 1.125em;
-		text-align: center;
-		color: #5879a1;
+
 		background-image: url("../images/white-pix.png");
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
@@ -271,21 +268,61 @@ section.top-nav .site-logo div span.grey{
 		-o-transition: background-position 0.1s ease;
 		transition: background-position 0.1s ease;
 	}
-	section.top-nav nav ul li a:hover{
+	section.top-nav nav ul li a{
+		display: block;
+		padding: 0 29px;
+		line-height: 62px;
+		height: 62px;
+		font-size: 1.125em;
+		text-align: center;
+		color: #5879a1;
+		
+	}
+	section.top-nav nav ul li:hover{
 		background-position: 0px -5px;	/* Could look better */
 	}
-	section.top-nav nav ul li.current a,
-	section.top-nav nav ul li.section a{
+	
+	section.top-nav nav ul li.has-children:hover{
+		background-color:#e8ecf2;
+	}
+
+	section.top-nav nav ul li.current,
+	section.top-nav nav ul li.section{
 		font-weight: 700;
 		background-position: 0px -10px;
 	}
+
 	section.top-nav nav ul li:first-child a,
 	section.top-nav nav ul li:last-child a
 	{
 		padding: 0 42px 0 43px;
 	}
+
 	section.top-nav ul.sub-menu{
 		display: none;
+	}
+
+	section.top-nav nav ul li:hover .sub-menu {
+		display: block;
+		position: absolute;
+		width:980px;
+		left:0;
+		background-color:#e8ecf2;
+	}
+
+	section.top-nav nav .sub-menu li a{
+		background-color: #e8ecf2;
+		background-image:none;
+		font-weight:normal;
+	}
+
+	section.top-nav nav .sub-menu li.current a{
+		font-weight:700;
+	}
+
+	section.top-nav nav .sub-menu li:hover a{
+		background-color: #e8ecf2;
+		color:#3a5474;
 	}
 }
 
@@ -742,6 +779,10 @@ body .main-content h2{
 .main-content a{
 	color:#5879a1 !important;
 	text-decoration:underline;
+}
+
+em{
+	font-style: italic;
 }
 
 /* Videos */
